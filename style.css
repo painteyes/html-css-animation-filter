@@ -1,29 +1,79 @@
+/* ESERCIZIO 1 */
 .ex-1-square {
     width: 100px;
     height: 100px;
-    border: 1px solid red;
+    border: 1px solid red; 
 }
+
+/* SOLUZIONE */
+.ex-1-square:hover {
+    background-color: red;
+    transition: 3s;
+}
+
+
+/* ESERCIZIO */
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+
+/* SOLUZIONE */
+.ex-2-square:active {
+    width: 100%;
+    transition: 3s;
+}
+
+
+/* ESERCIZIO 3 */
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+
+/* SOLUZIONE */
+.ex-3-square:hover {
+    border-radius: 50px;
+    transition: 1s;
+}
+
+
+/* ESERCIZIO 4 */
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+
+/* SOLUZIONE */
+.ex-4-square:hover {
+    opacity: 0;
+    transition: 3s;
+}
+
+
+/* ESERCIZIO 5 */
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
 }
+
+/* SOLUZIONE */
+.ex-5-square:hover {
+    transform: scale(2);
+    transition:2s;
+}
+
+.ex-5-square:active {
+    transform: scale(0.5);
+    transition:2s; 
+}
+
+/* ESERCIZIO 6 7 8*/
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
@@ -32,12 +82,41 @@
     margin: 50px 100px;
     width: 400px;
 }
+
+/* SOLUZIONE */
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+
+.ex-7-img:hover{
+    filter: sepia(0.5);
+    transition: 2s;
+}
+
+.ex-8-img:hover{
+    border-radius: 20px;
+    filter: grayscale(0.5) sepia(0.5);
+    transition: 2s;
+}
+
+
+/* ESERCIZIO 10*/
 .ex-10-icon {
     font-size: 60px;
 }
+
+/* SOLUZIONE */
+
+
+/* ESERCIZIO 11*/
 .ex-11-icon {
     font-size: 60px;
 }
+
+/* SOLUZIONE */
+
+
+/* ESERCIZIO 12 13*/
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
@@ -67,3 +146,5 @@
     width: 60px;
     height: 20px;
 }
+
+/* SOLUZIONE */
